@@ -39,13 +39,13 @@ $ .evn
 $ USER_EMAIL=your.email@yourmail.com
 $ USER_NAME=Your Full Name
 $ USER_STACK=Node.js/Epress
-
-5. Running Locally
-- Development mode:
-```sh
-npm run dev
 ```
-- Production mode:
+5. Running Locally
+- Development mode
+```sh
+$ npm run dev
+```
+-Production mode:
 ```sh
 npm start
 ```
