@@ -45,7 +45,7 @@ $ USER_STACK=Node.js/Epress
 ```sh
 $ npm run dev
 ```
--Production mode:
+- Production mode:
 ```sh
 npm start
 ```
