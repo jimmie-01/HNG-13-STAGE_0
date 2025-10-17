@@ -7,6 +7,8 @@ class ProfileController {
 			name: process.env.USER_NAME || 'Fakile Razaq',
 			stack: process.env.USER_STACK || 'Backend Developer',
 		};
+
+		this.getProfile = this.getProfile.bind(this);
 	}
 
 	async getProfile(req, res, next) {
